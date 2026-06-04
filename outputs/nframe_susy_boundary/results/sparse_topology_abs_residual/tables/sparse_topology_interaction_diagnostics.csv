@@ -1,0 +1,4 @@
+dataset,n,n_analyses,R_rare_nonzero_rows,B_nonzero_rows,B_x_Rrare_nonzero_rows,B_x_Rrare_unique_values,mean_B_when_Rrare_nonzero,interaction_estimable
+pooled,752,40,73,254,0,1,0.0,False
+ATLAS,555,32,66,156,0,1,0.0,False
+CMS,197,8,7,98,0,1,0.0,False

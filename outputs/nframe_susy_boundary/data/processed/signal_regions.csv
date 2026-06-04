@@ -1,0 +1,13 @@
+analysis,experiment,sqrt_s,luminosity,signal_region,N_obs,N_exp,sigma_exp,MET,HT_or_meff,N_jets,N_leptons,N_btags,category
+DEMO-CMS-MT2,CMS,13.0,35.9,HT1000_MET250_Nj4_Nb0,112.0,118.0,14.0,250.0,1000.0,4.0,0.0,0.0,hadronic
+DEMO-CMS-MT2,CMS,13.0,35.9,HT1200_MET350_Nj6_Nb1,54.0,48.0,8.0,350.0,1200.0,6.0,0.0,1.0,hadronic high_MET
+DEMO-CMS-MT2,CMS,13.0,35.9,HT1500_MET500_Nj8_Nb2,16.0,10.5,3.4,500.0,1500.0,8.0,0.0,2.0,high_MET high_multiplicity
+DEMO-CMS-MT2,CMS,13.0,35.9,compressed_ISR_MET300_Nj2_Nb0,33.0,28.0,6.0,300.0,650.0,2.0,0.0,0.0,compressed high_MET
+DEMO-ATLAS-2L,ATLAS,13.0,139.0,SF_0J_mT2_160_200,21.0,24.0,5.0,220.0,350.0,0.0,2.0,0.0,two_lepton
+DEMO-ATLAS-2L,ATLAS,13.0,139.0,SF_1J_mT2_200_260,12.0,10.0,3.0,260.0,500.0,1.0,2.0,0.0,two_lepton
+DEMO-ATLAS-2L,ATLAS,13.0,139.0,SF_1J_mT2_gt260,6.0,3.8,1.6,360.0,700.0,1.0,2.0,0.0,two_lepton high_MET
+DEMO-ATLAS-DT,ATLAS,13.0,136.0,DT_MET250_Nj1_tracklet,7.0,5.1,1.5,250.0,450.0,1.0,0.0,0.0,disappearing_track compressed
+DEMO-CMS-LLP,CMS,13.0,137.0,DV_MET200_Nj4_Nb1,4.0,2.2,1.1,200.0,900.0,4.0,0.0,1.0,displaced long_lived
+DEMO-CMS-LLP,CMS,13.0,137.0,DV_MET400_Nj6_Nb2,3.0,1.1,0.8,400.0,1300.0,6.0,0.0,2.0,displaced long_lived high_MET
+DEMO-ATLAS-HM,ATLAS,13.0,139.0,Nj10_MET300_Nb3,9.0,8.5,2.9,300.0,1800.0,10.0,0.0,3.0,high_multiplicity high_MET
+DEMO-ATLAS-HM,ATLAS,13.0,139.0,Nj12_MET500_Nb4,5.0,3.2,1.7,500.0,2200.0,12.0,0.0,4.0,high_multiplicity high_MET

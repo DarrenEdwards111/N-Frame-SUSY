@@ -1,0 +1,9 @@
+CMSSW environment check on local Windows host:
+
+docker: not found on PATH
+cmsRun: not found on PATH
+scram: not found on PATH
+WSL: installed, but no Linux distribution is installed
+
+Result:
+Full CMS MiniAOD CMSSW extraction cannot be executed in this environment. No full event_features.csv or event_features_nframe_scored.csv should be fabricated. Run this project inside a compatible CMS Open Data CMSSW Docker container or VM.

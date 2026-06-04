@@ -1,0 +1,13 @@
+dataset,outcome,n,term,coef,p_value,cluster_p_value,r2,adj_r2,note
+pooled,abs_Z_capped_3,752,B_x_Rrare,,,,0.1878882984451261,0.14099170722857712,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction
+ATLAS,abs_Z_capped_3,555,B_x_Rrare,,,,0.16381957506068645,0.11085613163842667,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction
+CMS,abs_Z_capped_3,197,B_x_Rrare,,,,0.11940791323640987,0.0770264759055419,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction
+pooled,Z_capped_3,752,B_x_Rrare,,,,0.13697195437850862,0.08713512357501407,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction
+ATLAS,Z_capped_3,555,B_x_Rrare,,,,0.1468474741868424,0.09280902245587463,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction
+CMS,Z_capped_3,197,B_x_Rrare,,,,0.09443340976665004,0.0508499909853658,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction
+pooled,abs_Z_conservative,752,B_x_Rrare,,,,0.1251454039494443,0.07462563150145451,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction
+ATLAS,abs_Z_conservative,555,B_x_Rrare,,,,0.142107314122909,0.08776862192723911,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction
+CMS,abs_Z_conservative,197,B_x_Rrare,,,,0.07766334171584555,0.03327280735992366,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction
+pooled,abs_Poisson,752,B_x_Rrare,,,,0.10515713336760313,0.05348310867474648,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction
+ATLAS,abs_Poisson,555,B_x_Rrare,,,,0.14523314319664482,0.09109244017455131,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction
+CMS,abs_Poisson,197,B_x_Rrare,,,,0.03913943373867079,-0.007105192445029607,B_x_Rrare not estimable; R2/adj_R2 are reduced model without interaction

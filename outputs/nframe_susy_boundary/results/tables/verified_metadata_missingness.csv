@@ -1,0 +1,13 @@
+field,n_rows,nonmissing_values,value_missing_fraction,verified_count,verified_missing_fraction
+MET,752,123,0.836436170212766,79,0.8949468085106382
+HT_or_meff,752,188,0.75,115,0.8470744680851063
+N_jets,752,239,0.6821808510638298,79,0.8949468085106382
+N_leptons,752,172,0.7712765957446809,0,1.0
+N_btags,752,123,0.836436170212766,79,0.8949468085106382
+is_compressed,752,752,0.0,0,1.0
+is_long_lived,752,752,0.0,0,1.0
+is_displaced,752,752,0.0,0,1.0
+is_disappearing_track,752,752,0.0,0,1.0
+is_high_MET,752,752,0.0,0,1.0
+is_high_multiplicity,752,752,0.0,0,1.0
+is_reconstruction_difficult,752,752,0.0,0,1.0

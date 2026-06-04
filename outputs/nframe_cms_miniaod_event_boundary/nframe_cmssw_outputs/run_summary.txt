@@ -1,0 +1,30 @@
+Date run: 2026-06-04
+Local data path checked: D:/cern_open_data/cms_met_run2016g_miniaod_10gb
+ROOT files in local data path: 6
+Total ROOT size: 10.962 GB
+
+CMSSW execution status: NOT RUN in this environment.
+
+Reason:
+- docker was not found on PATH.
+- cmsRun was not found on PATH.
+- scram was not found on PATH.
+- WSL is installed but has no Linux distribution installed.
+- The requested input zip nframe_cmssw_miniAOD_run_package.zip was not present, so a fresh runnable package was assembled from the existing analyzer/config plus new scoring and validation scripts.
+
+Events processed by CMSSW here: 0
+event_features.csv produced here: no
+event_features_nframe_scored.csv produced here: no
+pseudo_signal_regions_from_cmssw.csv produced here: no
+event_feature_validation.txt produced from CMSSW output here: no
+
+MET extracted correctly: not tested
+leptons extracted correctly: not tested
+b-tags extracted correctly: not tested
+
+What was produced:
+- nframe_cmssw_miniAOD_run_package.zip
+- nframe_cmssw_outputs.zip
+
+Scientific note:
+No physics conclusion can be drawn from this local CMSSW attempt because CMSSW extraction was not executed. The package is prepared for execution inside a compatible CMS Open Data CMSSW Docker/container environment.

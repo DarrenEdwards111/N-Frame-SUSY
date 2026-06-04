@@ -1,0 +1,7 @@
+column,missing_count,missing_fraction
+MET_enriched_complete,0,0.0
+HT_or_meff_enriched_complete,0,0.0
+N_jets_enriched_complete,0,0.0
+N_leptons_enriched_complete,0,0.0
+N_btags_enriched_complete,0,0.0
+category_enriched_complete,0,0.0

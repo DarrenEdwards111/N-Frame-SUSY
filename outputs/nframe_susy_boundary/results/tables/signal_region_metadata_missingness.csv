@@ -1,0 +1,13 @@
+stage,column,missing_count,missing_fraction
+before,MET,676,0.898936170212766
+before,HT_or_meff,668,0.8882978723404256
+before,N_jets,552,0.7340425531914894
+before,N_leptons,580,0.7712765957446809
+before,N_btags,668,0.8882978723404256
+before,category,620,0.824468085106383
+after,MET_enriched,629,0.836436170212766
+after,HT_or_meff_enriched,564,0.75
+after,N_jets_enriched,513,0.6821808510638298
+after,N_leptons_enriched,580,0.7712765957446809
+after,N_btags_enriched,629,0.836436170212766
+after,category_enriched,620,0.824468085106383

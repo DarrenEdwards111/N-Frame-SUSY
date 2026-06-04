@@ -1,0 +1,11 @@
+{
+  "figures": [
+    "b_access_vs_z.png",
+    "b_access_vs_delta_n.png",
+    "mean_z_by_b_access_quartile.png",
+    "z_hist_low_high_b.png"
+  ],
+  "tables": [
+    "mean_z_low_high_by_analysis.csv"
+  ]
+}

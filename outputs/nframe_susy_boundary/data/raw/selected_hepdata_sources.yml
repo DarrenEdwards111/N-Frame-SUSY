@@ -1,0 +1,57 @@
+sources:
+  - analysis: CMS-SUS-21-007
+    experiment: CMS
+    sqrt_s: 13
+    luminosity: 138
+    hepdata_record: 135454
+    inspire_id: ins2182749
+    hepdata_doi: 10.17182/hepdata.135454.v1
+    publication_doi: 10.1007/JHEP09(2023)149
+    title: Search for supersymmetry in final states with a single electron or muon using angular correlations and heavy-object identification in proton-proton collisions at sqrt(s) = 13 TeV
+    candidate_tables:
+      - name: Table 2 Multi-b MB SR bin event yields
+        doi: 10.17182/hepdata.135454.v1/t31
+        role: observed_yields
+      - name: Table 3 Zero-b MB SR bin event yields
+        doi: 10.17182/hepdata.135454.v1/t32
+        role: observed_yields
+      - name: Covariance and correlation matrix Multi-b
+        doi: 10.17182/hepdata.135454.v1/t33
+        role: covariance
+      - name: Covariance and correlation matrix Zero-b
+        doi: 10.17182/hepdata.135454.v1/t35
+        role: covariance
+  - analysis: ATLAS-SUSY-2018-32
+    experiment: ATLAS
+    sqrt_s: 13
+    luminosity: 139
+    hepdata_record: 89413
+    inspire_id: ins1750597
+    hepdata_doi: 10.17182/hepdata.89413.v4
+    publication_doi: 10.1140/epjc/s10052-019-7594-6
+    title: Search for electroweak production of charginos and sleptons decaying into final states with two leptons and missing transverse momentum in sqrt(s)=13 TeV pp collisions using the ATLAS detector
+    candidate_tables:
+      - name: Background fit 3
+        doi: 10.17182/hepdata.89413.v4/t13
+        role: sf_inclusive_sr_yields
+      - name: Background fit 4
+        doi: 10.17182/hepdata.89413.v4/t14
+        role: sf_inclusive_sr_yields
+      - name: Background fit 5
+        doi: 10.17182/hepdata.89413.v4/t11
+        role: df_inclusive_sr_yields
+      - name: Background fit 6
+        doi: 10.17182/hepdata.89413.v4/t12
+        role: df_inclusive_sr_yields
+      - name: SR kinematics 1
+        doi: 10.17182/hepdata.89413.v4/t15
+        role: sf_0j_mT2_shape
+      - name: SR kinematics 2
+        doi: 10.17182/hepdata.89413.v4/t16
+        role: sf_1j_mT2_shape
+      - name: SR kinematics 3
+        doi: 10.17182/hepdata.89413.v4/t17
+        role: df_0j_mT2_shape
+      - name: SR kinematics 4
+        doi: 10.17182/hepdata.89413.v4/t18
+        role: df_1j_mT2_shape

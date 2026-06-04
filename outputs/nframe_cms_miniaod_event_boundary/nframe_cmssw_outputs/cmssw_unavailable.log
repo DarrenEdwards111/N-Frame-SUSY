@@ -1,0 +1,10 @@
+Environment check:
+
+docker: not found on PATH
+cmsRun: not found on PATH
+scram: not found on PATH
+WSL: installed, but no Linux distributions are installed
+
+Because CMS MiniAOD event-object extraction requires CMSSW/FWLite, this host cannot produce the requested full event_features.csv or event_features_nframe_scored.csv without installing/running a CMS Open Data CMSSW container or equivalent CMSSW VM.
+
+No placeholder event table was generated.
