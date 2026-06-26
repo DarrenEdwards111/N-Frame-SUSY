@@ -1,0 +1,7 @@
+process_family,records,exact_successful_files,planned_exact_files,final_records
+QCD,3,10,1868,0
+TTAssoc,4,91,93,2
+TTTop,3,0,0,0
+WJets,2,288,289,1
+ZNuNu,9,0,2,0
+diboson,2,0,135,0

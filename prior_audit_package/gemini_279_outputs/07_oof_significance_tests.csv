@@ -1,0 +1,10 @@
+test,delta_auc,standard_error,p_one_sided,sigma_one_sided_Z,p_value_note,model,wald_Z,wald_p,n_resamples,count_delta_le_zero,count_delta_ge_observed
+delong_correlated_auc,0.016503092500020133,0.0008003752016112852,9.230188474027129e-95,20.619195180956044,analytic_normal_approximation,standard_plus_trace_axis,,,,,
+paired_test_set_bootstrap,0.016503092500020244,0.0007941979925015016,9.999000099990002e-05,3.7190417463402357,empirical_fraction_delta_le_zero_with_10000_resamples,standard_plus_trace_axis,20.77956964867176,3.312489584465024e-96,10000.0,0.0,
+paired_score_label_permutation,0.016503092500020244,0.0007663014383897916,9.999000099990002e-05,3.7190417463402357,plus_one_permutation_p_value_with_10000_resamples,standard_plus_trace_axis,21.536032262575084,,10000.0,,0.0
+delong_correlated_auc,0.05061748940290889,0.0017066885384381606,1.3252187485795322e-193,29.658305111271442,analytic_normal_approximation,standard_plus_BNF,,,,,
+paired_test_set_bootstrap,0.05061748940290911,0.0016943863488615596,9.999000099990002e-05,3.7190417463402357,empirical_fraction_delta_le_zero_with_10000_resamples,standard_plus_BNF,29.87364094199559,2.1650299639091264e-196,10000.0,0.0,
+paired_score_label_permutation,0.05061748940290911,0.001570588662715448,9.999000099990002e-05,3.7190417463402357,plus_one_permutation_p_value_with_10000_resamples,standard_plus_BNF,32.22835526865111,,10000.0,,0.0
+delong_correlated_auc,0.12031934027957214,0.0032584462237265173,9.050405661903632e-299,36.925372407088275,analytic_normal_approximation,standard_plus_full_NFrame_axes,,,,,
+paired_test_set_bootstrap,0.12031934027957225,0.003270732633834009,9.999000099990002e-05,3.7190417463402357,empirical_fraction_delta_le_zero_with_10000_resamples,standard_plus_full_NFrame_axes,36.78666334109121,1.508440205565074e-296,10000.0,0.0,
+paired_score_label_permutation,0.12031934027957225,0.0029528233261648528,9.999000099990002e-05,3.7190417463402357,plus_one_permutation_p_value_with_10000_resamples,standard_plus_full_NFrame_axes,40.74721952154308,,10000.0,,0.0

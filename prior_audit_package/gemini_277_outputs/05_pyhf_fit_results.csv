@@ -1,0 +1,2 @@
+sample_validation_id,stream,validation_chi2,validation_closed,observed_signal_total,expected_signal_total,p_value,significance_Z
+Run2016H_remote_mht_aware,MET_SR,3.5393136273310444,True,35.0,31.720783823671766,0.21936630953828257,0.7743351557416184

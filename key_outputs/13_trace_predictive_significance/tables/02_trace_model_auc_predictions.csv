@@ -1,0 +1,7 @@
+model,features,n_train,n_test,test_positive,test_negative,auc,pr_auc,delta_auc_vs_standard_CMS_like
+standard_CMS_like,MET_pt+HT+N_jets_30+N_btags_medium+N_muons+N_electrons,76161,32641,16321,16320,0.9849941387314072,0.9856822964864583,0.0
+standard_plus_trace_axis,MET_pt+HT+N_jets_30+N_btags_medium+N_muons+N_electrons+displacement_reconstruction_axis,76161,32641,16321,16320,0.9854258122279609,0.9861507977609484,0.00043167349655370835
+standard_plus_BNF,MET_pt+HT+N_jets_30+N_btags_medium+N_muons+N_electrons+B_NF_z,76161,32641,16321,16320,0.9856703133278311,0.986344190482219,0.0006761745964238841
+standard_plus_full_NFrame_axes,MET_pt+HT+N_jets_30+N_btags_medium+N_muons+N_electrons+B_NF_z+displacement_reconstruction_axis+missing_visible_axis+qcd_like_axis,76161,32641,16321,16320,0.9900941332050252,0.9895585354947284,0.005099994473617975
+trace_axis_alone,displacement_reconstruction_axis,76161,32641,16321,16320,0.6038517154610143,0.5674534667380257,-0.3811424232703928
+BNF_alone,B_NF_z,76161,32641,16321,16320,0.49815783016227144,0.49147166938010506,-0.48683630856913573

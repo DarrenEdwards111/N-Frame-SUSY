@@ -1,0 +1,11 @@
+# Run2016H MiniAOD File Audit
+
+Date: 2026-06-09
+
+These are independent real CMS Run2016H MiniAOD files. No simulated samples are included.
+
+| primary_dataset   |   record_id | data_tier   | real_or_simulated   | path                                                                                                                                | exists   |   expected_size_bytes |   actual_size_bytes | size_matches   | root_readable_by_uproot   | top_level_keys_or_error                                                   |
+|:------------------|------------:|:------------|:--------------------|:------------------------------------------------------------------------------------------------------------------------------------|:---------|----------------------:|--------------------:|:---------------|:--------------------------|:--------------------------------------------------------------------------|
+| JetHT             |       30541 | MiniAOD     | real collision      | D:\cern_open_data\nframe_validation_real_independent\jetht_run2016h_validation\30541\FC0EE8E8-8640-8649-B22A-F0C750DD5DE0.root      | True     |             365969251 |           365969251 | True           | True                      | MetaData;1;ParameterSets;1;Parentage;1;Events;1;LuminosityBlocks;1;Runs;1 |
+| MET               |       30542 | MiniAOD     | real collision      | D:\cern_open_data\nframe_validation_real_independent\met_run2016h_validation\30542\6D1DA38B-AEFA-3849-B346-3B2653B46C9E.root        | True     |             584950164 |           584950164 | True           | True                      | MetaData;1;ParameterSets;1;Parentage;1;Events;1;LuminosityBlocks;1;Runs;1 |
+| SingleMuon        |       30546 | MiniAOD     | real collision      | D:\cern_open_data\nframe_validation_real_independent\singlemuon_run2016h_validation\30546\E5768FBE-A1B2-F047-999D-0B5C0B051827.root | True     |             729986939 |           729986939 | True           | True                      | MetaData;1;ParameterSets;1;Parentage;1;Events;1;LuminosityBlocks;1;Runs;1 |

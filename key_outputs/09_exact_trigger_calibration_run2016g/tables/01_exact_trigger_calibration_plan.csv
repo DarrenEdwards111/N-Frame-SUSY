@@ -1,0 +1,2 @@
+dataset_label,record_id,process_family,primary_dataset,run_era,data_tier,xrootd_url,file_index,planned_max_events,status,output_path,notes,size_gb,selection_order
+SingleMuon__Run2016G-UL2016_MiniAODv2-v2__MINIAOD,30513,real_collision_data,SingleMuon,Run2016G,MINIAOD,root://eospublic.cern.ch//eos/opendata/cms/Run2016G/SingleMuon/MINIAOD/UL2016_MiniAODv2-v2/270000/29FD3CC1-C86D-004C-BF38-5E650AB6538C.root,0,20000,pending,,fresh independent real CMS MiniAOD validation; remote/cloud processing; no local ROOT retention,1.480303911,37

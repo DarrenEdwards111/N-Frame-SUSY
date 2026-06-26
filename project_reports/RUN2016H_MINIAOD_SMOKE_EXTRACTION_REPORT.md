@@ -1,0 +1,21 @@
+# Run2016H MiniAOD Smoke Extraction Report
+
+Date: 2026-06-09
+
+Smoke extraction used maxEvents=1000 for each independent real Run2016H MiniAOD file.
+
+## Extraction Status
+
+| mode   | primary_dataset   |   record_id | source_file                               |   max_events | status   |   events_written | output_csv                                                                                                                                                                  | log_path                                                                                                                                  |   returncode |
+|:-------|:------------------|------------:|:------------------------------------------|-------------:|:---------|-----------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|-------------:|
+| smoke  | JetHT             |       30541 | FC0EE8E8-8640-8649-B22A-F0C750DD5DE0.root |         1000 | success  |             1000 | D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\data\processed\independent_validation_miniaod_smoke\jetht_run2016h_1000_event_features.csv      | D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\results\logs\run2016h_miniaod_jetht_smoke_extraction.log      |            0 |
+| smoke  | MET               |       30542 | 6D1DA38B-AEFA-3849-B346-3B2653B46C9E.root |         1000 | success  |             1000 | D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\data\processed\independent_validation_miniaod_smoke\met_run2016h_1000_event_features.csv        | D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\results\logs\run2016h_miniaod_met_smoke_extraction.log        |            0 |
+| smoke  | SingleMuon        |       30546 | E5768FBE-A1B2-F047-999D-0B5C0B051827.root |         1000 | success  |             1000 | D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\data\processed\independent_validation_miniaod_smoke\singlemuon_run2016h_1000_event_features.csv | D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\results\logs\run2016h_miniaod_singlemuon_smoke_extraction.log |            0 |
+
+## Variable Validation
+
+| file                                        |   rows | missing_required_columns   | trigger_filter_columns                                                                                                                                                                                                                |
+|:--------------------------------------------|-------:|:---------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| jetht_run2016h_1000_event_features.csv      |   1000 |                            | HLT_MET_paths_any;HLT_HT_paths_any;HLT_Mu_paths_any;HLT_Ele_paths_any;pass_HBHENoiseFilter;pass_HBHENoiseIsoFilter;pass_goodVertices;pass_EcalDeadCellTriggerPrimitiveFilter;pass_BadPFMuonFilter;pass_globalSuperTightHalo2016Filter |
+| met_run2016h_1000_event_features.csv        |   1000 |                            | HLT_MET_paths_any;HLT_HT_paths_any;HLT_Mu_paths_any;HLT_Ele_paths_any;pass_HBHENoiseFilter;pass_HBHENoiseIsoFilter;pass_goodVertices;pass_EcalDeadCellTriggerPrimitiveFilter;pass_BadPFMuonFilter;pass_globalSuperTightHalo2016Filter |
+| singlemuon_run2016h_1000_event_features.csv |   1000 |                            | HLT_MET_paths_any;HLT_HT_paths_any;HLT_Mu_paths_any;HLT_Ele_paths_any;pass_HBHENoiseFilter;pass_HBHENoiseIsoFilter;pass_goodVertices;pass_EcalDeadCellTriggerPrimitiveFilter;pass_BadPFMuonFilter;pass_globalSuperTightHalo2016Filter |

@@ -1,0 +1,4 @@
+sample_validation_id,control_chi2,control_dof,control_p,control_Z,controls_closed_at_p_ge_0_05
+Run2015D_remote_mht_aware_holdout,249.79171998737365,9,1.1039104079198378e-48,14.616395997902677,False
+Run2016H_remote_mht_aware,3371.7580170713118,9,0.0,38.467405617144344,False
+Run2016G_remote_mht_aware_fresh,1025.4762454878048,9,5.528685321127778e-215,31.272452698028008,False

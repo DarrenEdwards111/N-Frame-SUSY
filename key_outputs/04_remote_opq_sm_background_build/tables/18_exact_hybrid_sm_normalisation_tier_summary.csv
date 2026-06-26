@@ -1,0 +1,10 @@
+normalisation_tier,process_family,records
+approx_constant_weight_sumw_pending_exact,WJets,1
+exact_record_sumw,TTAssoc,2
+exact_record_sumw,WJets,1
+metadata_unit_weight_record,QCD,3
+metadata_unit_weight_record,TTTop,3
+metadata_unit_weight_record,ZNuNu,7
+metadata_unit_weight_record,diboson,2
+shape_only_not_normalised,TTAssoc,2
+shape_only_not_normalised,ZNuNu,2

@@ -1,0 +1,2 @@
+record_id,process_family,file_index,xrootd_url,status,lumi_entries,num_events_total,num_events_passed,sum_weights_total,sum_weights_passed
+69548,WJets,0,root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/W3JetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/28FE2714-284A-1949-AD0D-CBF9AAB8F844.root,0,98,88222,88222,81062.6,81062.6

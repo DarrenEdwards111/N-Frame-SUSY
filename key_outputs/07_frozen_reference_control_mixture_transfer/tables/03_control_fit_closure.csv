@@ -1,0 +1,4 @@
+sample_validation_id,fit_scope,control_chi2,control_dof,control_p,control_Z,controls_closed_at_p_ge_0_05
+Run2015D_remote_mht_aware_holdout,JetHT_and_SingleMuon_only,2011.767767465229,9,0.0,38.467405617144344,False
+Run2016H_remote_mht_aware,JetHT_and_SingleMuon_only,428.13383478988925,9,1.3499686053690234e-86,19.688610642915105,False
+Run2016G_remote_mht_aware_fresh,JetHT_and_SingleMuon_only,1010.6575853018659,9,8.677031292812218e-212,31.03650180941446,False

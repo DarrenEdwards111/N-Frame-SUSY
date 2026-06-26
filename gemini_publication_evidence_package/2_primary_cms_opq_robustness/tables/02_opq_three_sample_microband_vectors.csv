@@ -1,0 +1,16 @@
+sample_validation_id,microband,trace_count,control_count
+Run2015D_remote_mht_aware_holdout,q90_95,294,1240
+Run2015D_remote_mht_aware_holdout,q95_97,133,500
+Run2015D_remote_mht_aware_holdout,q97_98,83,250
+Run2015D_remote_mht_aware_holdout,q98_99,149,250
+Run2015D_remote_mht_aware_holdout,q99_100,189,250
+Run2016H_remote_mht_aware,q90_95,878,3220
+Run2016H_remote_mht_aware,q95_97,409,1290
+Run2016H_remote_mht_aware,q97_98,225,650
+Run2016H_remote_mht_aware,q98_99,224,640
+Run2016H_remote_mht_aware,q99_100,289,650
+Run2016G_remote_mht_aware_fresh,q90_95,204,1490
+Run2016G_remote_mht_aware_fresh,q95_97,100,600
+Run2016G_remote_mht_aware_fresh,q97_98,60,300
+Run2016G_remote_mht_aware_fresh,q98_99,57,300
+Run2016G_remote_mht_aware_fresh,q99_100,72,300

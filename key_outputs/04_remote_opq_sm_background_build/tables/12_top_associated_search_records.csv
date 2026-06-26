@@ -1,0 +1,5 @@
+record_id,title,all_file_count,online_file_count,record_url,usable_for_remote_extraction
+68205,/TTZToQQ_TuneCP5_13TeV_amcatnlo-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM,878,1,https://opendata.cern.ch/record/68205,True
+68196,/TTZToLL_TuneCP5_13TeV_amcatnlo-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM,558,1,https://opendata.cern.ch/record/68196,True
+68072,/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM,77,77,https://opendata.cern.ch/record/68072,True
+68082,/TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM,14,14,https://opendata.cern.ch/record/68082,True

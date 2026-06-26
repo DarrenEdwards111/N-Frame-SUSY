@@ -1,0 +1,33 @@
+# Full Component Real Trace Alignment Report
+
+Date: 2026-06-09
+
+Applied direction: `gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500`
+
+## Alignment
+
+| dataset   | direction                                                                                                  | bnf_tail   |   high_events |   mean_trace_high |   mean_trace_rest |   mean_diff |      welch_p |   welch_z |   fraction_high_above_trace_q90 |   fraction_rest_above_trace_q90 |   enrichment_ratio |
+|:----------|:-----------------------------------------------------------------------------------------------------------|:-----------|--------------:|------------------:|------------------:|------------:|-------------:|----------:|--------------------------------:|--------------------------------:|-------------------:|
+| Run2016G  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top05      |         30243 |           2.25552 |       -0.118712   |     2.37423 | 0            | inf       |                        0.667427 |                       0.0701354 |            9.51627 |
+| Run2016G  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top01      |          6049 |           2.82746 |       -0.0285621  |     2.85602 | 0            | inf       |                        0.811539 |                       0.0928123 |            8.74388 |
+| Run2016G  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top001     |           605 |           3.60095 |       -0.00360539 |     3.60456 | 1.31312e-220 |  31.6835  |                        0.879339 |                       0.0992197 |            8.86254 |
+| Run2016H  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top05      |          7849 |           1.64258 |       -0.0864546  |     1.72904 | 0            | inf       |                        0.505032 |                       0.0786851 |            6.4184  |
+| Run2016H  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top01      |          1570 |           2.09756 |       -0.0211908  |     2.11875 | 4.44493e-282 |  35.8703  |                        0.649682 |                       0.09445   |            6.87858 |
+| Run2016H  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top001     |           157 |           2.97378 |       -0.00297723 |     2.97676 | 5.00648e-17  |   8.30463 |                        0.732484 |                       0.09937   |            7.37128 |
+| combined  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top05      |         38092 |           2.13372 |       -0.112302   |     2.24603 | 0            | inf       |                        0.634989 |                       0.0718432 |            8.83854 |
+| combined  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top01      |          7619 |           2.69483 |       -0.0272228  |     2.72205 | 0            | inf       |                        0.778711 |                       0.0931444 |            8.36026 |
+| combined  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top001     |           762 |           3.53392 |       -0.00353822 |     3.53746 | 4.71767e-194 |  29.6931  |                        0.855643 |                       0.0992441 |            8.6216  |
+
+## Distances
+
+| dataset   | direction                                                                                                  | bnf_tail   |   events |   mean_distance_to_signal |   mean_distance_to_qcd_ht1000 |   fraction_closer_to_signal_than_qcd |
+|:----------|:-----------------------------------------------------------------------------------------------------------|:-----------|---------:|--------------------------:|------------------------------:|-------------------------------------:|
+| Run2016G  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top05      |    30243 |                   7.27125 |                       4.30897 |                            0.0152763 |
+| Run2016G  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top01      |     6049 |                   7.16585 |                       4.8818  |                            0.0509175 |
+| Run2016G  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top001     |      605 |                   7.6428  |                       6.36312 |                            0.165289  |
+| Run2016H  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top05      |     7849 |                   7.75172 |                       4.30507 |                            0.0117212 |
+| Run2016H  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top01      |     1570 |                   7.68553 |                       4.71559 |                            0.0324841 |
+| Run2016H  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top001     |      157 |                   8.47761 |                       6.3741  |                            0.0764331 |
+| combined  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top05      |    38092 |                   7.36587 |                       4.3068  |                            0.0145175 |
+| combined  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top01      |     7619 |                   7.26162 |                       4.85131 |                            0.047119  |
+| combined  | gluinogluinotoneutralinoneutralinoto2t2b2s_m-1600_ctau-30mm_tunecp5_13tev-pythia_40117_vs_qcd_ht1000to1500 | top001     |      762 |                   7.77665 |                       6.37994 |                            0.149606  |

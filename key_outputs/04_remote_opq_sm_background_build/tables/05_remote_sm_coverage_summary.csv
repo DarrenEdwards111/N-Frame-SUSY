@@ -1,0 +1,7 @@
+process_family,records,feature_rows,effective_selected_events,shape_eligible_records
+QCD,3,45000,45000.0,3
+TTAssoc,4,17082,4494.638529106628,4
+TTTop,3,9331,9331.0,3
+WJets,2,20000,19999.937343647594,2
+ZNuNu,9,31252,31153.277195336123,8
+diboson,2,30000,30000.0,2

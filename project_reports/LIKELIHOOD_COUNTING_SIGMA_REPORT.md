@@ -1,0 +1,14 @@
+# Likelihood Counting Sigma Report
+
+Date: 2026-06-09
+
+This treats high-B_NF occupancy as a benchmark counting model, not a particle-discovery counting experiment.
+
+| threshold   | background_model                 |   sms_total |   sms_observed_tail_count |   background_total |   background_tail_count |   background_tail_probability |   expected_background_count_in_sms_n |   binomial_tail_p |   binomial_tail_log10p |   binomial_z |   asimov_style_z |   beta_binomial_tail_p_mean |   beta_binomial_z_mean |
+|:------------|:---------------------------------|------------:|--------------------------:|-------------------:|------------------------:|------------------------------:|-------------------------------------:|------------------:|-----------------------:|-------------:|-----------------:|----------------------------:|-----------------------:|
+| q95         | qcd_ht700to1000_nanoaodsim_pilot |        5000 |                       989 |              50000 |                    1223 |                       0.02446 |                               122.3  |      0            |             -inf       |    inf       |         49.0005  |                0            |              inf       |
+| q95         | ttjets_nanoaodsim_pilot          |        5000 |                       989 |              50000 |                    2454 |                       0.04908 |                               245.4  |      7.03972e-305 |             -304.152   |     37.3041  |         35.6335  |                6.17135e-281 |               35.7969  |
+| q95         | pooled_sm_background             |        5000 |                       989 |             100000 |                    3677 |                       0.03677 |                               183.85 |      0            |             -inf       |    inf       |         41.4467  |                0            |              inf       |
+| q99         | qcd_ht700to1000_nanoaodsim_pilot |        5000 |                        26 |              50000 |                      61 |                       0.00122 |                                 6.1  |      1.80761e-09  |               -8.74289 |      5.9009  |          5.96574 |                3.2255e-08   |                5.40583 |
+| q99         | ttjets_nanoaodsim_pilot          |        5000 |                        26 |              50000 |                     153 |                       0.00306 |                                15.3  |      0.00774625   |               -2.11091 |      2.42066 |          2.48449 |                0.0116567    |                2.26826 |
+| q99         | pooled_sm_background             |        5000 |                        26 |             100000 |                     214 |                       0.00214 |                                10.7  |      5.18436e-05  |               -4.2853  |      3.8818  |          3.94567 |                9.11977e-05  |                3.74223 |

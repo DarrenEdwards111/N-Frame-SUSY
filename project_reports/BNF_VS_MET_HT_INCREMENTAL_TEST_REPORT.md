@@ -1,0 +1,49 @@
+# B_NF Versus MET/HT Incremental Test Report
+
+Date: 2026-06-09
+
+## Results
+
+| comparison                                   | model_or_score                           | feature_column                                                                     |      auc |   signal_q95_real_tail_fraction |   background_q95_real_tail_fraction |
+|:---------------------------------------------|:-----------------------------------------|:-----------------------------------------------------------------------------------|---------:|--------------------------------:|------------------------------------:|
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | B_NF_fitted                              | B_NF_fitted_frozen_raw                                                             | 0.909178 |                          0.1978 |                             0.02446 |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | P_missing_only                           | B_P_missing                                                                        | 0.993871 |                        nan      |                           nan       |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | P_visible_energy_only                    | B_P_visible_energy                                                                 | 0.987048 |                        nan      |                           nan       |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | P_multiplicity_only                      | B_P_multiplicity                                                                   | 0.976099 |                        nan      |                           nan       |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | P_missing_plus_visible                   | score_missing_visible                                                              | 0.999477 |                        nan      |                           nan       |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | P_missing_plus_visible_plus_multiplicity | score_missing_visible_multiplicity                                                 | 0.999913 |                        nan      |                           nan       |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | B_NF_excluding_missing                   | B_NF_excluding_missing                                                             | 0.748314 |                        nan      |                           nan       |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | B_NF_excluding_visible_energy            | B_NF_excluding_visible_energy                                                      | 0.85669  |                        nan      |                           nan       |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | B_NF_excluding_multiplicity              | B_NF_excluding_multiplicity                                                        | 0.791818 |                        nan      |                           nan       |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | logistic_missing_visible_multiplicity    | B_P_missing;B_P_visible_energy;B_P_multiplicity                                    | 0.999928 |                        nan      |                           nan       |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | logistic_available_components            | B_P_multiplicity;B_P_btag_structure;B_P_visible_energy;B_P_missing;B_P_compression | 0.999931 |                        nan      |                           nan       |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | B_NF_fitted                              | B_NF_fitted_frozen_raw                                                             | 0.839075 |                          0.1978 |                             0.04908 |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | P_missing_only                           | B_P_missing                                                                        | 0.985792 |                        nan      |                           nan       |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | P_visible_energy_only                    | B_P_visible_energy                                                                 | 0.99839  |                        nan      |                           nan       |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | P_multiplicity_only                      | B_P_multiplicity                                                                   | 0.950298 |                        nan      |                           nan       |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | P_missing_plus_visible                   | score_missing_visible                                                              | 0.999253 |                        nan      |                           nan       |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | P_missing_plus_visible_plus_multiplicity | score_missing_visible_multiplicity                                                 | 0.999467 |                        nan      |                           nan       |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | B_NF_excluding_missing                   | B_NF_excluding_missing                                                             | 0.6118   |                        nan      |                           nan       |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | B_NF_excluding_visible_energy            | B_NF_excluding_visible_energy                                                      | 0.704821 |                        nan      |                           nan       |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | B_NF_excluding_multiplicity              | B_NF_excluding_multiplicity                                                        | 0.696692 |                        nan      |                           nan       |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | logistic_missing_visible_multiplicity    | B_P_missing;B_P_visible_energy;B_P_multiplicity                                    | 0.999569 |                        nan      |                           nan       |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | logistic_available_components            | B_P_multiplicity;B_P_btag_structure;B_P_visible_energy;B_P_missing;B_P_compression | 0.999653 |                        nan      |                           nan       |
+
+## Best Per Comparison
+
+| comparison                                   | model_or_score                           | feature_column                                                                     |      auc |   signal_q95_real_tail_fraction |   background_q95_real_tail_fraction |
+|:---------------------------------------------|:-----------------------------------------|:-----------------------------------------------------------------------------------|---------:|--------------------------------:|------------------------------------:|
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | logistic_available_components            | B_P_multiplicity;B_P_btag_structure;B_P_visible_energy;B_P_missing;B_P_compression | 0.999931 |                             nan |                                 nan |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | logistic_missing_visible_multiplicity    | B_P_missing;B_P_visible_energy;B_P_multiplicity                                    | 0.999928 |                             nan |                                 nan |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | P_missing_plus_visible_plus_multiplicity | score_missing_visible_multiplicity                                                 | 0.999913 |                             nan |                                 nan |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | logistic_available_components            | B_P_multiplicity;B_P_btag_structure;B_P_visible_energy;B_P_missing;B_P_compression | 0.999653 |                             nan |                                 nan |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | logistic_missing_visible_multiplicity    | B_P_missing;B_P_visible_energy;B_P_multiplicity                                    | 0.999569 |                             nan |                                 nan |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | P_missing_plus_visible                   | score_missing_visible                                                              | 0.999477 |                             nan |                                 nan |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | P_missing_plus_visible_plus_multiplicity | score_missing_visible_multiplicity                                                 | 0.999467 |                             nan |                                 nan |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | P_missing_plus_visible                   | score_missing_visible                                                              | 0.999253 |                             nan |                                 nan |
+| SMS-T5Wg vs ttjets_nanoaodsim_pilot          | P_visible_energy_only                    | B_P_visible_energy                                                                 | 0.99839  |                             nan |                                 nan |
+| SMS-T5Wg vs qcd_ht700to1000_nanoaodsim_pilot | P_missing_only                           | B_P_missing                                                                        | 0.993871 |                             nan |                                 nan |
+
+## Interpretation
+
+The current separation is dominated by missing-energy, visible-energy and multiplicity components if those component AUCs match or exceed B_NF.

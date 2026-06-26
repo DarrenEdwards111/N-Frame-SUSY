@@ -1,0 +1,4 @@
+sample_validation_id,control_fit_closed,met_all_bands_chi2,met_all_bands_dof,met_all_bands_p,met_all_bands_Z,met_upper_observed,met_upper_expected,met_upper_obs_over_exp,met_upper_naive_signed_Z_no_systematics,valid_MET_transfer_test
+Run2015D_remote_mht_aware_holdout,False,1097.2740121894612,4,2.9515602336013313e-236,32.799922438289364,273.0,80.99294451166843,3.3706639713619704,21.335046489133468,False
+Run2016H_remote_mht_aware,False,23801.915616885948,4,0.0,38.467405617144344,3606.0,503.31096711332697,7.164556776264449,138.2993228556197,False
+Run2016G_remote_mht_aware_fresh,False,3196.2424283157416,4,0.0,38.467405617144344,802.0,154.16555552708704,5.2021996564536614,52.17594924870005,False

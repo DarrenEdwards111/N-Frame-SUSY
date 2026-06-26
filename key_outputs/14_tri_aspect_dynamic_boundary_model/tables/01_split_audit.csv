@@ -1,0 +1,11 @@
+era,primary_dataset,split,source_files,events
+Run2015D,HTMHT,development,2,7641
+Run2015D,HTMHT,validation,1,6340
+Run2015D,JetHT,development,2,9759
+Run2015D,JetHT,validation,1,5528
+Run2015D,MET,development,2,12222
+Run2015D,MET,validation,1,4154
+Run2015D,SingleMuon,development,2,11761
+Run2015D,SingleMuon,validation,1,6372
+Run2016,MET,development,6,211330
+Run2016,MET,validation,2,35317

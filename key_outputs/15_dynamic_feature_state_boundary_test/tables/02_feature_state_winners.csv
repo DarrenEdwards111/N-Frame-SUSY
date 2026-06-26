@@ -1,0 +1,3 @@
+candidate_id,training_samples,training_shoulder_passes,training_min_shape_Z,training_median_shape_Z,training_min_shoulder_delta,training_score,feature_state,observer_projection,physical_projection,algebraic_projection,ordinary_qcd_axis,leptonic_control_axis
+grid_opq_0010,2,2,5.461836399171833,10.308357702631275,0.239510663743273,2005.7013470629151,met_only_or_recomputed,0.45454545454545453,0.45454545454545453,0.0,-0.09090909090909091,0.0
+grid_opq_0018,2,2,9.168229896929232,16.233552751592192,0.32396271643647845,2009.4921926133657,mht_aware,0.3181818181818181,0.5909090909090908,0.0,-0.09090909090909091,0.0

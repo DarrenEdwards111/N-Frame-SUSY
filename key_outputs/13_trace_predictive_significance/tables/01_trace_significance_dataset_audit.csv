@@ -1,0 +1,10 @@
+item,value,note
+weighted_sm_input_rows,251921,outputs_breakthrough_full_push_nframe_susy\sources\best_available_full_plus_reduced_weighted_sm_events.csv
+deduplicated_signal_input_rows,61795,all available signal benchmark rows
+trace_available_signal_rows,54401,signal rows with fitted displacement/reconstruction trace axis
+primary_analysis_rows,108802,balanced trace-available SM plus signal sample
+primary_analysis_signal_rows,54401,
+primary_analysis_sm_rows,54401,
+heldout_test_rows,32641,stratified event-level holdout
+heldout_test_signal_rows,16321,
+heldout_test_sm_rows,16320,

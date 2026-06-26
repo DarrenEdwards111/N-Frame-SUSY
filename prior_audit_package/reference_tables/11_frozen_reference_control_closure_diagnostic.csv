@@ -1,0 +1,3 @@
+mode,max_control_Z,controls_closed_at_Z_le_2,interpretation
+exact_completed_only,2.2868132075331604,False,control_closure_fail
+exact_plus_unit_weight_metadata,7.406391518658952,False,control_closure_fail

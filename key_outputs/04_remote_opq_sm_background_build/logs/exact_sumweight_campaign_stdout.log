@@ -1,0 +1,331 @@
+[2026-06-24T07:31:30] Starting exact sumweight batch 1 of 10
+running chunk 0: 10 files -> D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\cloud_remote_nframe_package\cmssw_full_extraction\exact_sumweight_chunks\sumweight_chunk_000_output.csv
+ record_id process_family  status   n
+     63102            QCD       0  20
+     68072        TTAssoc       0  77
+     68082        TTAssoc       0  14
+     69548          WJets       0 288
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\tables\16_exact_genfilter_sumweights_resumable.csv
+ record_id process_family  online_file_count  planned_exact_files  exact_successful_files  exact_complete_full_online                        normalisation_tier  normalisation_denominator  base_event_scale_for_generator_weight
+     69746          WJets                  1                    1                       0                       False approx_constant_weight_sumw_pending_exact               9.914233e+12                               0.000036
+     69548          WJets                288                  288                     288                        True                         exact_record_sumw               1.888753e+07                               0.071400
+     74907          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     74909          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     63118            QCD                562                  562                       0                       False               metadata_unit_weight_record               4.686347e+07                              11.349109
+     63126            QCD               1143                 1143                       0                       False               metadata_unit_weight_record               5.291647e+07                               0.939467
+     63102            QCD                163                  163                      20                       False               metadata_unit_weight_record               4.867995e+06                               0.007382
+     72753        diboson                106                  106                       0                       False               metadata_unit_weight_record               7.584000e+06                               0.059524
+     75592        diboson                 29                   29                       0                       False               metadata_unit_weight_record               1.151000e+06                               0.171912
+     74893          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               7.083216e+06                               0.061582
+     74897          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.814106e+06                               0.017553
+     74901          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.114046e+06                               0.002656
+     74903          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.881671e+06                               0.002097
+     74905          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.335000e+05                               0.002785
+     74895          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.156090e+05                               0.003535
+     74899          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.104610e+05                               0.000083
+     67710          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               6.045127e+06                               0.000166
+     67722          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               5.779374e+06                               0.000237
+     67726          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               7.410828e+06                               0.000190
+     68205        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68196        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68072        TTAssoc                 77                   77                      77                        True                         exact_record_sumw               1.113150e+06                               0.001899
+     68082        TTAssoc                 14                   14                      14                        True                         exact_record_sumw               2.091069e+05                               0.020562
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\reports\10_EXACT_HYBRID_SM_NORMALISATION_TIER_AUDIT.md
+[2026-06-24T07:52:10] Starting exact sumweight batch 2 of 10
+running chunk 0: 10 files -> D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\cloud_remote_nframe_package\cmssw_full_extraction\exact_sumweight_chunks\sumweight_chunk_000_output.csv
+ record_id process_family  status   n
+     63102            QCD       0  30
+     68072        TTAssoc       0  77
+     68082        TTAssoc       0  14
+     69548          WJets       0 288
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\tables\16_exact_genfilter_sumweights_resumable.csv
+ record_id process_family  online_file_count  planned_exact_files  exact_successful_files  exact_complete_full_online                        normalisation_tier  normalisation_denominator  base_event_scale_for_generator_weight
+     69746          WJets                  1                    1                       0                       False approx_constant_weight_sumw_pending_exact               9.914233e+12                               0.000036
+     69548          WJets                288                  288                     288                        True                         exact_record_sumw               1.888753e+07                               0.071400
+     74907          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     74909          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     63118            QCD                562                  562                       0                       False               metadata_unit_weight_record               4.686347e+07                              11.349109
+     63126            QCD               1143                 1143                       0                       False               metadata_unit_weight_record               5.291647e+07                               0.939467
+     63102            QCD                163                  163                      30                       False               metadata_unit_weight_record               4.867995e+06                               0.007382
+     72753        diboson                106                  106                       0                       False               metadata_unit_weight_record               7.584000e+06                               0.059524
+     75592        diboson                 29                   29                       0                       False               metadata_unit_weight_record               1.151000e+06                               0.171912
+     74893          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               7.083216e+06                               0.061582
+     74897          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.814106e+06                               0.017553
+     74901          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.114046e+06                               0.002656
+     74903          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.881671e+06                               0.002097
+     74905          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.335000e+05                               0.002785
+     74895          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.156090e+05                               0.003535
+     74899          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.104610e+05                               0.000083
+     67710          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               6.045127e+06                               0.000166
+     67722          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               5.779374e+06                               0.000237
+     67726          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               7.410828e+06                               0.000190
+     68205        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68196        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68072        TTAssoc                 77                   77                      77                        True                         exact_record_sumw               1.113150e+06                               0.001899
+     68082        TTAssoc                 14                   14                      14                        True                         exact_record_sumw               2.091069e+05                               0.020562
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\reports\10_EXACT_HYBRID_SM_NORMALISATION_TIER_AUDIT.md
+[2026-06-24T08:15:31] Starting exact sumweight batch 3 of 10
+running chunk 0: 10 files -> D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\cloud_remote_nframe_package\cmssw_full_extraction\exact_sumweight_chunks\sumweight_chunk_000_output.csv
+ record_id process_family  status   n
+     63102            QCD       0  40
+     68072        TTAssoc       0  77
+     68082        TTAssoc       0  14
+     69548          WJets       0 288
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\tables\16_exact_genfilter_sumweights_resumable.csv
+ record_id process_family  online_file_count  planned_exact_files  exact_successful_files  exact_complete_full_online                        normalisation_tier  normalisation_denominator  base_event_scale_for_generator_weight
+     69746          WJets                  1                    1                       0                       False approx_constant_weight_sumw_pending_exact               9.914233e+12                               0.000036
+     69548          WJets                288                  288                     288                        True                         exact_record_sumw               1.888753e+07                               0.071400
+     74907          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     74909          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     63118            QCD                562                  562                       0                       False               metadata_unit_weight_record               4.686347e+07                              11.349109
+     63126            QCD               1143                 1143                       0                       False               metadata_unit_weight_record               5.291647e+07                               0.939467
+     63102            QCD                163                  163                      40                       False               metadata_unit_weight_record               4.867995e+06                               0.007382
+     72753        diboson                106                  106                       0                       False               metadata_unit_weight_record               7.584000e+06                               0.059524
+     75592        diboson                 29                   29                       0                       False               metadata_unit_weight_record               1.151000e+06                               0.171912
+     74893          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               7.083216e+06                               0.061582
+     74897          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.814106e+06                               0.017553
+     74901          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.114046e+06                               0.002656
+     74903          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.881671e+06                               0.002097
+     74905          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.335000e+05                               0.002785
+     74895          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.156090e+05                               0.003535
+     74899          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.104610e+05                               0.000083
+     67710          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               6.045127e+06                               0.000166
+     67722          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               5.779374e+06                               0.000237
+     67726          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               7.410828e+06                               0.000190
+     68205        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68196        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68072        TTAssoc                 77                   77                      77                        True                         exact_record_sumw               1.113150e+06                               0.001899
+     68082        TTAssoc                 14                   14                      14                        True                         exact_record_sumw               2.091069e+05                               0.020562
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\reports\10_EXACT_HYBRID_SM_NORMALISATION_TIER_AUDIT.md
+[2026-06-24T08:34:56] Starting exact sumweight batch 4 of 10
+running chunk 0: 10 files -> D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\cloud_remote_nframe_package\cmssw_full_extraction\exact_sumweight_chunks\sumweight_chunk_000_output.csv
+ record_id process_family  status   n
+     63102            QCD       0  50
+     68072        TTAssoc       0  77
+     68082        TTAssoc       0  14
+     69548          WJets       0 288
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\tables\16_exact_genfilter_sumweights_resumable.csv
+ record_id process_family  online_file_count  planned_exact_files  exact_successful_files  exact_complete_full_online                        normalisation_tier  normalisation_denominator  base_event_scale_for_generator_weight
+     69746          WJets                  1                    1                       0                       False approx_constant_weight_sumw_pending_exact               9.914233e+12                               0.000036
+     69548          WJets                288                  288                     288                        True                         exact_record_sumw               1.888753e+07                               0.071400
+     74907          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     74909          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     63118            QCD                562                  562                       0                       False               metadata_unit_weight_record               4.686347e+07                              11.349109
+     63126            QCD               1143                 1143                       0                       False               metadata_unit_weight_record               5.291647e+07                               0.939467
+     63102            QCD                163                  163                      50                       False               metadata_unit_weight_record               4.867995e+06                               0.007382
+     72753        diboson                106                  106                       0                       False               metadata_unit_weight_record               7.584000e+06                               0.059524
+     75592        diboson                 29                   29                       0                       False               metadata_unit_weight_record               1.151000e+06                               0.171912
+     74893          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               7.083216e+06                               0.061582
+     74897          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.814106e+06                               0.017553
+     74901          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.114046e+06                               0.002656
+     74903          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.881671e+06                               0.002097
+     74905          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.335000e+05                               0.002785
+     74895          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.156090e+05                               0.003535
+     74899          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.104610e+05                               0.000083
+     67710          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               6.045127e+06                               0.000166
+     67722          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               5.779374e+06                               0.000237
+     67726          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               7.410828e+06                               0.000190
+     68205        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68196        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68072        TTAssoc                 77                   77                      77                        True                         exact_record_sumw               1.113150e+06                               0.001899
+     68082        TTAssoc                 14                   14                      14                        True                         exact_record_sumw               2.091069e+05                               0.020562
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\reports\10_EXACT_HYBRID_SM_NORMALISATION_TIER_AUDIT.md
+[2026-06-24T08:58:44] Starting exact sumweight batch 5 of 10
+running chunk 0: 10 files -> D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\cloud_remote_nframe_package\cmssw_full_extraction\exact_sumweight_chunks\sumweight_chunk_000_output.csv
+ record_id process_family  status   n
+     63102            QCD       0  60
+     68072        TTAssoc       0  77
+     68082        TTAssoc       0  14
+     69548          WJets       0 288
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\tables\16_exact_genfilter_sumweights_resumable.csv
+ record_id process_family  online_file_count  planned_exact_files  exact_successful_files  exact_complete_full_online                        normalisation_tier  normalisation_denominator  base_event_scale_for_generator_weight
+     69746          WJets                  1                    1                       0                       False approx_constant_weight_sumw_pending_exact               9.914233e+12                               0.000036
+     69548          WJets                288                  288                     288                        True                         exact_record_sumw               1.888753e+07                               0.071400
+     74907          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     74909          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     63118            QCD                562                  562                       0                       False               metadata_unit_weight_record               4.686347e+07                              11.349109
+     63126            QCD               1143                 1143                       0                       False               metadata_unit_weight_record               5.291647e+07                               0.939467
+     63102            QCD                163                  163                      60                       False               metadata_unit_weight_record               4.867995e+06                               0.007382
+     72753        diboson                106                  106                       0                       False               metadata_unit_weight_record               7.584000e+06                               0.059524
+     75592        diboson                 29                   29                       0                       False               metadata_unit_weight_record               1.151000e+06                               0.171912
+     74893          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               7.083216e+06                               0.061582
+     74897          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.814106e+06                               0.017553
+     74901          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.114046e+06                               0.002656
+     74903          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.881671e+06                               0.002097
+     74905          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.335000e+05                               0.002785
+     74895          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.156090e+05                               0.003535
+     74899          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.104610e+05                               0.000083
+     67710          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               6.045127e+06                               0.000166
+     67722          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               5.779374e+06                               0.000237
+     67726          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               7.410828e+06                               0.000190
+     68205        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68196        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68072        TTAssoc                 77                   77                      77                        True                         exact_record_sumw               1.113150e+06                               0.001899
+     68082        TTAssoc                 14                   14                      14                        True                         exact_record_sumw               2.091069e+05                               0.020562
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\reports\10_EXACT_HYBRID_SM_NORMALISATION_TIER_AUDIT.md
+[2026-06-24T09:16:59] Starting exact sumweight batch 6 of 10
+running chunk 0: 10 files -> D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\cloud_remote_nframe_package\cmssw_full_extraction\exact_sumweight_chunks\sumweight_chunk_000_output.csv
+ record_id process_family  status   n
+     63102            QCD       0  70
+     68072        TTAssoc       0  77
+     68082        TTAssoc       0  14
+     69548          WJets       0 288
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\tables\16_exact_genfilter_sumweights_resumable.csv
+ record_id process_family  online_file_count  planned_exact_files  exact_successful_files  exact_complete_full_online                        normalisation_tier  normalisation_denominator  base_event_scale_for_generator_weight
+     69746          WJets                  1                    1                       0                       False approx_constant_weight_sumw_pending_exact               9.914233e+12                               0.000036
+     69548          WJets                288                  288                     288                        True                         exact_record_sumw               1.888753e+07                               0.071400
+     74907          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     74909          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     63118            QCD                562                  562                       0                       False               metadata_unit_weight_record               4.686347e+07                              11.349109
+     63126            QCD               1143                 1143                       0                       False               metadata_unit_weight_record               5.291647e+07                               0.939467
+     63102            QCD                163                  163                      70                       False               metadata_unit_weight_record               4.867995e+06                               0.007382
+     72753        diboson                106                  106                       0                       False               metadata_unit_weight_record               7.584000e+06                               0.059524
+     75592        diboson                 29                   29                       0                       False               metadata_unit_weight_record               1.151000e+06                               0.171912
+     74893          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               7.083216e+06                               0.061582
+     74897          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.814106e+06                               0.017553
+     74901          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.114046e+06                               0.002656
+     74903          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.881671e+06                               0.002097
+     74905          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.335000e+05                               0.002785
+     74895          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.156090e+05                               0.003535
+     74899          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.104610e+05                               0.000083
+     67710          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               6.045127e+06                               0.000166
+     67722          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               5.779374e+06                               0.000237
+     67726          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               7.410828e+06                               0.000190
+     68205        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68196        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68072        TTAssoc                 77                   77                      77                        True                         exact_record_sumw               1.113150e+06                               0.001899
+     68082        TTAssoc                 14                   14                      14                        True                         exact_record_sumw               2.091069e+05                               0.020562
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\reports\10_EXACT_HYBRID_SM_NORMALISATION_TIER_AUDIT.md
+[2026-06-24T09:35:43] Starting exact sumweight batch 7 of 10
+running chunk 0: 10 files -> D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\cloud_remote_nframe_package\cmssw_full_extraction\exact_sumweight_chunks\sumweight_chunk_000_output.csv
+ record_id process_family  status   n
+     63102            QCD       0  80
+     68072        TTAssoc       0  77
+     68082        TTAssoc       0  14
+     69548          WJets       0 288
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\tables\16_exact_genfilter_sumweights_resumable.csv
+ record_id process_family  online_file_count  planned_exact_files  exact_successful_files  exact_complete_full_online                        normalisation_tier  normalisation_denominator  base_event_scale_for_generator_weight
+     69746          WJets                  1                    1                       0                       False approx_constant_weight_sumw_pending_exact               9.914233e+12                               0.000036
+     69548          WJets                288                  288                     288                        True                         exact_record_sumw               1.888753e+07                               0.071400
+     74907          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     74909          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     63118            QCD                562                  562                       0                       False               metadata_unit_weight_record               4.686347e+07                              11.349109
+     63126            QCD               1143                 1143                       0                       False               metadata_unit_weight_record               5.291647e+07                               0.939467
+     63102            QCD                163                  163                      80                       False               metadata_unit_weight_record               4.867995e+06                               0.007382
+     72753        diboson                106                  106                       0                       False               metadata_unit_weight_record               7.584000e+06                               0.059524
+     75592        diboson                 29                   29                       0                       False               metadata_unit_weight_record               1.151000e+06                               0.171912
+     74893          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               7.083216e+06                               0.061582
+     74897          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.814106e+06                               0.017553
+     74901          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.114046e+06                               0.002656
+     74903          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.881671e+06                               0.002097
+     74905          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.335000e+05                               0.002785
+     74895          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.156090e+05                               0.003535
+     74899          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.104610e+05                               0.000083
+     67710          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               6.045127e+06                               0.000166
+     67722          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               5.779374e+06                               0.000237
+     67726          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               7.410828e+06                               0.000190
+     68205        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68196        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68072        TTAssoc                 77                   77                      77                        True                         exact_record_sumw               1.113150e+06                               0.001899
+     68082        TTAssoc                 14                   14                      14                        True                         exact_record_sumw               2.091069e+05                               0.020562
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\reports\10_EXACT_HYBRID_SM_NORMALISATION_TIER_AUDIT.md
+[2026-06-24T09:57:41] Starting exact sumweight batch 8 of 10
+running chunk 0: 10 files -> D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\cloud_remote_nframe_package\cmssw_full_extraction\exact_sumweight_chunks\sumweight_chunk_000_output.csv
+ record_id process_family  status   n
+     63102            QCD       0  90
+     68072        TTAssoc       0  77
+     68082        TTAssoc       0  14
+     69548          WJets       0 288
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\tables\16_exact_genfilter_sumweights_resumable.csv
+ record_id process_family  online_file_count  planned_exact_files  exact_successful_files  exact_complete_full_online                        normalisation_tier  normalisation_denominator  base_event_scale_for_generator_weight
+     69746          WJets                  1                    1                       0                       False approx_constant_weight_sumw_pending_exact               9.914233e+12                               0.000036
+     69548          WJets                288                  288                     288                        True                         exact_record_sumw               1.888753e+07                               0.071400
+     74907          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     74909          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     63118            QCD                562                  562                       0                       False               metadata_unit_weight_record               4.686347e+07                              11.349109
+     63126            QCD               1143                 1143                       0                       False               metadata_unit_weight_record               5.291647e+07                               0.939467
+     63102            QCD                163                  163                      90                       False               metadata_unit_weight_record               4.867995e+06                               0.007382
+     72753        diboson                106                  106                       0                       False               metadata_unit_weight_record               7.584000e+06                               0.059524
+     75592        diboson                 29                   29                       0                       False               metadata_unit_weight_record               1.151000e+06                               0.171912
+     74893          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               7.083216e+06                               0.061582
+     74897          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.814106e+06                               0.017553
+     74901          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.114046e+06                               0.002656
+     74903          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.881671e+06                               0.002097
+     74905          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.335000e+05                               0.002785
+     74895          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.156090e+05                               0.003535
+     74899          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.104610e+05                               0.000083
+     67710          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               6.045127e+06                               0.000166
+     67722          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               5.779374e+06                               0.000237
+     67726          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               7.410828e+06                               0.000190
+     68205        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68196        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68072        TTAssoc                 77                   77                      77                        True                         exact_record_sumw               1.113150e+06                               0.001899
+     68082        TTAssoc                 14                   14                      14                        True                         exact_record_sumw               2.091069e+05                               0.020562
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\reports\10_EXACT_HYBRID_SM_NORMALISATION_TIER_AUDIT.md
+[2026-06-24T10:21:05] Starting exact sumweight batch 9 of 10
+running chunk 0: 10 files -> D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\cloud_remote_nframe_package\cmssw_full_extraction\exact_sumweight_chunks\sumweight_chunk_000_output.csv
+ record_id process_family  status   n
+     63102            QCD       0 100
+     68072        TTAssoc       0  77
+     68082        TTAssoc       0  14
+     69548          WJets       0 288
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\tables\16_exact_genfilter_sumweights_resumable.csv
+ record_id process_family  online_file_count  planned_exact_files  exact_successful_files  exact_complete_full_online                        normalisation_tier  normalisation_denominator  base_event_scale_for_generator_weight
+     69746          WJets                  1                    1                       0                       False approx_constant_weight_sumw_pending_exact               9.914233e+12                               0.000036
+     69548          WJets                288                  288                     288                        True                         exact_record_sumw               1.888753e+07                               0.071400
+     74907          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     74909          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     63118            QCD                562                  562                       0                       False               metadata_unit_weight_record               4.686347e+07                              11.349109
+     63126            QCD               1143                 1143                       0                       False               metadata_unit_weight_record               5.291647e+07                               0.939467
+     63102            QCD                163                  163                     100                       False               metadata_unit_weight_record               4.867995e+06                               0.007382
+     72753        diboson                106                  106                       0                       False               metadata_unit_weight_record               7.584000e+06                               0.059524
+     75592        diboson                 29                   29                       0                       False               metadata_unit_weight_record               1.151000e+06                               0.171912
+     74893          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               7.083216e+06                               0.061582
+     74897          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.814106e+06                               0.017553
+     74901          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.114046e+06                               0.002656
+     74903          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.881671e+06                               0.002097
+     74905          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.335000e+05                               0.002785
+     74895          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.156090e+05                               0.003535
+     74899          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.104610e+05                               0.000083
+     67710          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               6.045127e+06                               0.000166
+     67722          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               5.779374e+06                               0.000237
+     67726          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               7.410828e+06                               0.000190
+     68205        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68196        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68072        TTAssoc                 77                   77                      77                        True                         exact_record_sumw               1.113150e+06                               0.001899
+     68082        TTAssoc                 14                   14                      14                        True                         exact_record_sumw               2.091069e+05                               0.020562
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\reports\10_EXACT_HYBRID_SM_NORMALISATION_TIER_AUDIT.md
+[2026-06-24T10:45:17] Starting exact sumweight batch 10 of 10
+running chunk 0: 10 files -> D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\cloud_remote_nframe_package\cmssw_full_extraction\exact_sumweight_chunks\sumweight_chunk_000_output.csv
+ record_id process_family  status   n
+     63102            QCD       0 110
+     68072        TTAssoc       0  77
+     68082        TTAssoc       0  14
+     69548          WJets       0 288
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\tables\16_exact_genfilter_sumweights_resumable.csv
+ record_id process_family  online_file_count  planned_exact_files  exact_successful_files  exact_complete_full_online                        normalisation_tier  normalisation_denominator  base_event_scale_for_generator_weight
+     69746          WJets                  1                    1                       0                       False approx_constant_weight_sumw_pending_exact               9.914233e+12                               0.000036
+     69548          WJets                288                  288                     288                        True                         exact_record_sumw               1.888753e+07                               0.071400
+     74907          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     74909          ZNuNu                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     63118            QCD                562                  562                       0                       False               metadata_unit_weight_record               4.686347e+07                              11.349109
+     63126            QCD               1143                 1143                       0                       False               metadata_unit_weight_record               5.291647e+07                               0.939467
+     63102            QCD                163                  163                     110                       False               metadata_unit_weight_record               4.867995e+06                               0.007382
+     72753        diboson                106                  106                       0                       False               metadata_unit_weight_record               7.584000e+06                               0.059524
+     75592        diboson                 29                   29                       0                       False               metadata_unit_weight_record               1.151000e+06                               0.171912
+     74893          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               7.083216e+06                               0.061582
+     74897          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.814106e+06                               0.017553
+     74901          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.114046e+06                               0.002656
+     74903          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.881671e+06                               0.002097
+     74905          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               6.335000e+05                               0.002785
+     74895          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.156090e+05                               0.003535
+     74899          ZNuNu                  1                    0                       0                       False               metadata_unit_weight_record               1.104610e+05                               0.000083
+     67710          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               6.045127e+06                               0.000166
+     67722          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               5.779374e+06                               0.000237
+     67726          TTTop                  1                    0                       0                       False               metadata_unit_weight_record               7.410828e+06                               0.000190
+     68205        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68196        TTAssoc                  1                    1                       0                       False                 shape_only_not_normalised                        NaN                                    NaN
+     68072        TTAssoc                 77                   77                      77                        True                         exact_record_sumw               1.113150e+06                               0.001899
+     68082        TTAssoc                 14                   14                      14                        True                         exact_record_sumw               2.091069e+05                               0.020562
+D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\outputs_remote_opq_sm_background_build\reports\10_EXACT_HYBRID_SM_NORMALISATION_TIER_AUDIT.md
+[2026-06-24T10:55:45] Exact sumweight campaign completed

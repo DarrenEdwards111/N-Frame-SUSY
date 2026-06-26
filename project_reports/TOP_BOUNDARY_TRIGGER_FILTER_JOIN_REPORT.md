@@ -1,0 +1,14 @@
+# Top Boundary Trigger/Filter Join Report
+
+Date: 2026-06-08
+
+Trigger/filter source table: `D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\data\processed\cmssw_real_only_full_file_by_file\real_only_event_quality_trigger_features.csv`
+
+The trigger/filter probe was intentionally small, so coverage of the full top-1000 event tables is expected to be limited.
+
+| top_set      |   events |   trigger_rows_matched |   coverage_fraction |   HLT_MET_paths_any_mean_matched |   HLT_HT_paths_any_mean_matched |   HLT_Mu_paths_any_mean_matched |   HLT_Ele_paths_any_mean_matched |   pass_HBHENoiseFilter_mean_matched |   pass_HBHENoiseIsoFilter_mean_matched |   pass_goodVertices_mean_matched |   pass_EcalDeadCellTriggerPrimitiveFilter_mean_matched |   pass_BadPFMuonFilter_mean_matched |   pass_globalSuperTightHalo2016Filter_mean_matched |   trigger_filter_extraction_status_mean_matched |
+|:-------------|---------:|-----------------------:|--------------------:|---------------------------------:|--------------------------------:|--------------------------------:|---------------------------------:|------------------------------------:|---------------------------------------:|---------------------------------:|-------------------------------------------------------:|------------------------------------:|---------------------------------------------------:|------------------------------------------------:|
+| hand         |     1000 |                      5 |               0.005 |                         1        |                               1 |                             1   |                         0        |                                   1 |                                      1 |                                1 |                                                      1 |                                   1 |                                                  1 |                                               1 |
+| unsupervised |     1000 |                      6 |               0.006 |                         0.666667 |                               1 |                             0.5 |                         0.166667 |                                   1 |                                      1 |                                1 |                                                      1 |                                   1 |                                                  1 |                                               1 |
+
+A full trigger/filter join would require re-running the full file-by-file extraction with the patched trigger/filter analyser.

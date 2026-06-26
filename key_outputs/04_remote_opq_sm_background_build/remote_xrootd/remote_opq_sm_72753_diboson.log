@@ -1,0 +1,128 @@
+Setting up CMSSW_10_6_30
+WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.
+CMSSW should now be available.
+This is a standalone image for CMSSW_10_6_30 slc7_amd64_gcc700.
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Building CMSSW version CMSSW_10_6_30 ----
+>> Entering Package NFrame/NFrameMiniAOD
+>> Creating project symlinks
+Entering library rule at src/NFrame/NFrameMiniAOD/plugins
+>> Compiling edm plugin /code/CMSSW_10_6_30/src/NFrame/NFrameMiniAOD/plugins/NFrameMiniAODAnalyzer.cc 
+>> Building edm plugin tmp/slc7_amd64_gcc700/src/NFrame/NFrameMiniAOD/plugins/NFrameNFrameMiniAODAuto/libNFrameNFrameMiniAODAuto.so
+Leaving library rule at src/NFrame/NFrameMiniAOD/plugins
+@@@@ Running edmWriteConfigs for NFrameNFrameMiniAODAuto
+--- Registered EDM Plugin: NFrameNFrameMiniAODAuto
+>> Leaving Package NFrame/NFrameMiniAOD
+>> Package NFrame/NFrameMiniAOD built
+>> Subsystem NFrame built
+>> Subsystem BigProducts built
+gmake[1]: Entering directory '/code/CMSSW_10_6_30'
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Creating project symlinks
+>> Done python_symlink
+>> Compiling python modules cfipython/slc7_amd64_gcc700
+>> Compiling python modules python
+>> Compiling python modules src/NFrame/NFrameMiniAOD/python
+>> All python modules compiled
+@@@@ Refreshing Plugins:edmPluginRefresh
+>> Plugins of all types refreshed.
+>> Done generating edm plugin poisoned information
+gmake[1]: Leaving directory '/code/CMSSW_10_6_30'
+22-Jun-2026 11:28:32 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/B02395F9-041B-974A-BD8D-98F3C2AD7136.root
+%MSG-w XrdAdaptor:  file_open 22-Jun-2026 11:28:34 CEST pre-events
+Data is served from cern.ch instead of original site eospublic
+%MSG
+22-Jun-2026 11:28:37 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/B02395F9-041B-974A-BD8D-98F3C2AD7136.root
+Begin processing the 1st record. Run 1, Event 5046013, LumiSection 5047 on stream 0 at 22-Jun-2026 11:28:40.842 CEST
+22-Jun-2026 11:29:00 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/B02395F9-041B-974A-BD8D-98F3C2AD7136.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w file_open                              1        1
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           pre-events                        
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 1                   1
+System                  3                   3
+
+dropped waiting message count 0
+wrote /work/outputs/remote_opq_sm_72753_diboson/event_features_test_nframe_scored.csv rows 100
+22-Jun-2026 11:29:01 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/B02395F9-041B-974A-BD8D-98F3C2AD7136.root
+%MSG-w XrdAdaptor:  file_open 22-Jun-2026 11:29:04 CEST pre-events
+Data is served from cern.ch instead of original site eospublic
+%MSG
+22-Jun-2026 11:29:07 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/B02395F9-041B-974A-BD8D-98F3C2AD7136.root
+Begin processing the 1st record. Run 1, Event 5046013, LumiSection 5047 on stream 0 at 22-Jun-2026 11:29:10.719 CEST
+Begin processing the 1001st record. Run 1, Event 5107014, LumiSection 5108 on stream 0 at 22-Jun-2026 11:29:24.545 CEST
+Begin processing the 2001st record. Run 1, Event 5109013, LumiSection 5110 on stream 0 at 22-Jun-2026 11:29:29.967 CEST
+Begin processing the 3001st record. Run 1, Event 5124016, LumiSection 5125 on stream 0 at 22-Jun-2026 11:29:36.539 CEST
+Begin processing the 4001st record. Run 1, Event 5824005, LumiSection 5825 on stream 0 at 22-Jun-2026 11:29:46.835 CEST
+Begin processing the 5001st record. Run 1, Event 5436016, LumiSection 5437 on stream 0 at 22-Jun-2026 11:29:55.149 CEST
+Begin processing the 6001st record. Run 1, Event 5510011, LumiSection 5511 on stream 0 at 22-Jun-2026 11:30:01.628 CEST
+Begin processing the 7001st record. Run 1, Event 5613001, LumiSection 5614 on stream 0 at 22-Jun-2026 11:30:17.074 CEST
+22-Jun-2026 11:30:24 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/B02395F9-041B-974A-BD8D-98F3C2AD7136.root
+22-Jun-2026 11:30:24 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2710000/A3ED71AB-0727-E548-ACCB-CD2ECA6F512F.root
+%MSG-w XrdAdaptor:  file_open 22-Jun-2026 11:30:27 CEST PostProcessEvent
+Data is served from cern.ch instead of original site eospublic
+%MSG
+22-Jun-2026 11:30:27 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2710000/A3ED71AB-0727-E548-ACCB-CD2ECA6F512F.root
+Begin processing the 8001st record. Run 1, Event 1569008, LumiSection 1570 on stream 0 at 22-Jun-2026 11:30:30.145 CEST
+Begin processing the 9001st record. Run 1, Event 1648004, LumiSection 1649 on stream 0 at 22-Jun-2026 11:30:41.235 CEST
+Begin processing the 10001st record. Run 1, Event 1758006, LumiSection 1759 on stream 0 at 22-Jun-2026 11:30:45.156 CEST
+Begin processing the 11001st record. Run 1, Event 3134010, LumiSection 3135 on stream 0 at 22-Jun-2026 11:30:49.529 CEST
+Begin processing the 12001st record. Run 1, Event 3565006, LumiSection 3566 on stream 0 at 22-Jun-2026 11:30:54.278 CEST
+Begin processing the 13001st record. Run 1, Event 3579015, LumiSection 3580 on stream 0 at 22-Jun-2026 11:30:58.820 CEST
+Begin processing the 14001st record. Run 1, Event 3645017, LumiSection 3646 on stream 0 at 22-Jun-2026 11:31:03.289 CEST
+22-Jun-2026 11:31:09 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2710000/A3ED71AB-0727-E548-ACCB-CD2ECA6F512F.root
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w file_open                              2        2
+    2 fileAction           -s file_close                             2        2
+    3 fileAction           -s file_open                              4        4
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           pre-events       PostProcessEvent 
+    2 fileAction           PostProcessEvent PostGlobalEndRun 
+    3 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 2                   2
+System                  6                   6
+
+dropped waiting message count 0
+wrote /work/outputs/remote_opq_sm_72753_diboson/event_features_nframe_scored.csv rows 15000
+   N_events  mean_B_event_z  ...  mean_S_event_proxy           pseudo_region
+0     13209       -0.208371  ...            1.096765        SR1_low_boundary
+1       210        1.513695  ...            1.270863          SR2_medium_MET
+2        50        3.833326  ...            1.554324            SR3_high_MET
+3         2        8.075472  ...            2.249905  SR4_high_MET_high_jets
+4      2182        1.783692  ...            1.838058       SR5_high_boundary
+5       601        2.800426  ...            1.986174    SR6_extreme_boundary
+6      5036       -0.437598  ...            0.711487   SR7_high_MET_fraction
+7         6        4.079706  ...            2.364742   SR8_high_multiplicity
+
+[8 rows x 10 columns]
+Done: remote_opq_sm_72753_diboson
+Outputs: /work/outputs/remote_opq_sm_72753_diboson
+docker run --rm -v D:\Gamer File\My Work\The PhD\Extra\Nframe\nframe_cms_stage2_event_boundary\cloud_remote_nframe_package\cmssw_full_extraction:/work cmsopendata/cmssw_10_6_30-slc7_amd64_gcc700 bash -lc export SAMPLE_ID=remote_opq_sm_72753_diboson; export NFRAME_INPUT_FILES='root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/B02395F9-041B-974A-BD8D-98F3C2AD7136.root,root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2710000/A3ED71AB-0727-E548-ACCB-CD2ECA6F512F.root,root://eospublic.cern.ch//eos/opendata/cms/mc/RunIISummer20UL16MiniAODv2/WZ_TuneCP5_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/232DE110-438E-FA40-B6D3-85090E400BBB.root'; export NFRAME_INPUT_DIR=/data; export NFRAME_OUTPUT_DIR=/work/outputs/${SAMPLE_ID}; export NFRAME_TEST_MAXEVENTS=100; export NFRAME_MAXEVENTS_FULL=15000; bash /work/run_one_sample.sh

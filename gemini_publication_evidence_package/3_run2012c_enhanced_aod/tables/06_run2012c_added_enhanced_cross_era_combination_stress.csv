@@ -1,0 +1,2 @@
+combination,sample_count,fisher_statistic,fisher_p,fisher_Z,enhanced_aod_included_as_stress_only
+three_miniaod_like_samples_plus_run2012c_enhanced_aod,4,183.10236966966824,2.2960084703839837e-35,12.354746444250736,True
